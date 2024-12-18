@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Skiing Adventures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+            color: #333;
+        }
+
+        header {
+            background: #004c8c;
+            padding: 15px;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        /* Custom background for the content section */
+        .section {
+            background: url('https://example.com/skiing-background.jpg') no-repeat center center;
+            background-size: cover;
+            padding: 40px;
+            border-radius: 8px;
+            color: rgb(41, 17, 164);
+        }
+
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        .video-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .image-gallery img {
+            width: 30%;
+            border-radius: 8px;
+        }
+
+        .nested-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .nested-list li {
+            margin: 5px 0;
+        }
+
+        .nested-list li ul {
+            margin-left: 20px;
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Skiing Adventures</h1>
+        <p><a href="#skiing-tips" title="Go to Skiing Tips Section">Jump to Skiing Tips</a></p>
+    </header>
+
+    <div class="content">
+        <section class="section" id="skiing-tips">
+            <h2>Why Skiing is So Exciting!</h2>
+            <p>Skiing is not just a sport; it's an exhilarating way to connect with nature, challenge yourself, and enjoy breathtaking views. Whether you're skiing down snowy slopes or relaxing in a mountain lodge, the experience is unforgettable.</p>
+
+            <h3>Popular Skiing Destinations:</h3>
+            <ol>
+                <li>Switzerland
+                    <ul>
+                        <li>Zermatt</li>
+                        <li>St. Moritz</li>
+                        <li>Verbier</li>
+                    </ul>
+                </li>
+                <li>France
+                    <ul>
+                        <li>Chamonix</li>
+                        <li>Courchevel</li>
+                    </ul>
+                </li>
+                <li>United States
+                    <ul>
+                        <li>Vail</li>
+                        <li>Park City</li>
+                        <li>Jackson Hole</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <div class="image-gallery">
+                <img src="https://via.placeholder.com/300x200?text=Skiing+in+Switzerland" alt="Skiing in Switzerland">
+                <img src="https://via.placeholder.com/300x200?text=Mountain+Slope" alt="Mountain Slope">
+                <img src="https://via.placeholder.com/300x200?text=Snowy+Landscape" alt="Snowy Landscape">
+            </div>
+
+            <div class="video-container">
+                <h3>Watch This Awesome Skiing Video!</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XPXi0mVg07g" title="Skiing Adventure Video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
